@@ -1,0 +1,301 @@
+/* Navbar */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+display: flex;
+justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav{
+    justify-content: flex-start;
+  }
+}
+
+.logo{
+  width: 80px;
+}
+
+  /* flex-direction: row-reverse; */
+.list{
+  display: flex;
+  list-style-type: none;
+}
+.list_item{
+  margin:20px;
+}
+
+.nav_img{
+height:300px;
+width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .nav_img{
+    width:200%;
+  }
+}
+
+.div_img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.girl_img{
+  width: 200px;
+  border-radius: 70%;
+  transform: translateY(-50px);
+}
+
+@media only screen and (max-width: 600px) {
+  .girl_img{
+    transform: translateY(-50px) ;
+  }
+}
+.transform{
+  transform: translateY(-50px);
+}
+
+@media only screen and (max-width: 600px) {
+  .transform{
+    transform: translateY(-50px) ;
+  }
+}
+
+.girl_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donate_flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 30px; */
+}
+
+/* @media only screen and (max-width: 600px) {
+  .donate_flex{
+    transform: translateX(80px);
+  }
+} */
+
+.dropdown_list{
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.support_flex{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.button_sub{
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+.button_main{
+  margin: 0 auto;
+  background-color: #53c56c;
+  color: white;
+  padding: 5px 60px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .button_main{
+    padding: 5px 40px ;
+  }
+}
+
+.button_main1{
+  margin: 0 auto;
+  background-color: #53c56c;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .button_main1{
+    padding: 5px 20px;
+  }
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px sold black;
+}
+
+.card_img{
+  height: 80px;
+  width: 100%;
+}
+
+.card_flex{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .card_flex{
+flex-direction: column; 
+align-items: center;
+}
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+
+.about_flex{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.about_card{
+  display:flex;
+  flex-direction:column;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.container{
+  background-color:rgb(248, 241, 241);
+  margin: 20px;
+  padding: 20px;
+}
+.review-card {
+  background: rgb(255, 255, 255);
+  height: 200px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    margin: 10px;   
+      }
+    .review-card {
+      height: 500px;
+    }
+}
+.paragraph_flex{
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph_flex{
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+     }
+}
+
+.paragraph_margin{
+  margin-right: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph_margin{
+    margin: 10px;
+
+     }
+}
+
+
+.service_card{
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .service_card{
+    padding: 20px;
+   
+      }
+}
+
+
+.button_sub1{
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.button_main2{
+  margin: 10px;
+  background-color: #53c56c;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+.active{
+  margin:0 20px 0 100px;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline  #53c56c;
+}
+.not_active{
+  margin: 0 20px;
+}
+@media only screen and (max-width: 600px) {
+  .active{
+    margin: 0 40px;
+  }
+}
+
+.title_flex .paragraph_flex{
+  display: flex;
+}
+
+
+
+
