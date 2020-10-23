@@ -16,12 +16,12 @@ import TimeLine from '../src/components/Timeline';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <TimeLine />
-      <Donate/>
-      <ProfileSection/>
-      <About/>
-      <Service/>
+      <Donate />
+      <ProfileSection />
+      <About />
+      <Service />
     </div>
   );
 }
